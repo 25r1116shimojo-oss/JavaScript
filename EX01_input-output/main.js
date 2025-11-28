@@ -9,5 +9,4 @@ function introduction() {
     outName.textContent = inName.value
     // メッセージの生成
     msg.innerHTML = '私の名前は' + inName.value + 'です。'
-
 }

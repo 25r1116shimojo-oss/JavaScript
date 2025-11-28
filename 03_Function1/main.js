@@ -27,3 +27,4 @@ function reset1(){
     document.getElementById('p1').textContent = '1つ目の内容'
     document.getElementById('p2').textContent = '2つ目の内容'
 }
+
