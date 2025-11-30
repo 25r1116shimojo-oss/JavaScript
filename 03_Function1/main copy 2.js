@@ -37,6 +37,7 @@ function test1() {
     document.getElementById('p1').textContent = message
 }
 
+
 function test2() {
 let message = "さようなら"; 
 document.getElementById('p1').textContent = message

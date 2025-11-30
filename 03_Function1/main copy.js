@@ -43,6 +43,7 @@ function reset_2() {
 //      backup2 = document.getElementById('p2').textContent;
 
 
+
 ```
 
 動くなら、なぜ前のコードはあんなに長かったり、記号が多かったりしたの？」と思いますよね。実は、私のコードは
