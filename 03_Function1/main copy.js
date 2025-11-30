@@ -13,7 +13,7 @@ function click2() {
 }
 
 // リセットボタン　模範回答
-function reset_1(){
+function reset_1() {
     document.getElementById('p1').textContent = '模範回答'
     document.getElementById('p2').textContent = '模範回答'
 }
@@ -35,10 +35,10 @@ function reset_2() {
 
 //      --- ページが読み込まれた瞬間に実行 ---
 //      window.onload = function() {
-            
+
 //      --- p1にbackup1に入れる ---
 //      backup1 = document.getElementById('p1').textContent;
-            
+
 //      --- p2にbackup2に入れる ---
 //      backup2 = document.getElementById('p2').textContent;
 

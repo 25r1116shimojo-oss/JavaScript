@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>変数の衝突テスト</title>
     <script src="main copy 2.js"></script>
 </head>
+
 <body>
 
     <p id="p1">1つ目の内容（初期値）</p>
@@ -29,10 +31,11 @@
     <input type="button" value="テスト１" onclick="test1()">
     <input type="button" value="テスト２" onclick="test2()">
 
-    <p><img src="image.jpg"style="border:1px solid #666;padding:3px;max-width:600px;"></p>
+    <p><img src="image1.jpg" style="border:1px solid #666;padding:3px;max-width:600px;"></p>
     <p>
         - let使ったとしても、範囲外なら上書きしちゃうってことかぁ<br>
         - let は「画面の結果」を守るのではなく、**「計算中のデータが他人に汚染される事故」**を防ぐためにあります。
     </p>
 </body>
+
 </html>

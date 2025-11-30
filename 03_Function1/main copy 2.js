@@ -41,4 +41,3 @@ function test2() {
 let message = "さようなら"; 
 document.getElementById('p1').textContent = message
 }
-
