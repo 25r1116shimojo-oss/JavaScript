@@ -1,18 +1,18 @@
 // JavaScriptでHTMLに出力する処理を行うための変数
 let output = document.getElementById('output')
 
+
 // 変数
 // 変数を定義
 // var let
 // 基本はletを使う
 
 // 変数を定義する。
-let name1
+let name1 = 'しもじょ'
 // 変数に値を代入する。
-name1 = '木内和也'
-
+output.textContent = name1
 // 変数を定義して、値を代入する。
-let name2 = '木内和也'
+
 
 // 変数名の付け方
 // 意味のある名前をつけてる。
@@ -37,9 +37,10 @@ let name2 = '木内和也'
 // 変数名を書くだけ
 
 // 入力する文字変数を定義
-let msg = 'あいうえお'
+let 
+suuzi = 
 // 文字を出力する
-output.textContent = msg
+#####
 
 // 変数の型について
 // 大きく分類すると基本型と参照型に分けられる
@@ -62,9 +63,9 @@ output.textContent = msg
 // 関数
 
 // 数値型としての変数
-let num1 = 100
+#####
 // 文字列型としての変数
-let str1 = '100'
+#####
 
 output.innerHTML += '<br>'
 output.innerHTML += num1

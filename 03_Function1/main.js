@@ -8,23 +8,19 @@ function click1(){
 }
 
 function click2(){
-    // idがp2のtextContentに文字を代入
-    document.getElementById('p2').textContent = '実行ボタンが押されました。'
+    document.getElementById('p2').textContent = '実行しました'
 }
 
-// リセットボタン　練習
-
-let 初期P1 = document.getElementById('p1').textContent;
-let 初期P2 = document.getElementById('p2').textContent;
-
-  function reset() {
-  document.getElementById('p1').textContent = 初期P1;
-  document.getElementById('p2').textContent = 初期P2;
+function reset(){
+    document.getElementById('p1').textContent = 'あ。'
+    document.getElementById('p2').textContent = 'あ。'
 }
 
-// リセットボタン　回答
+let p1 = document.getElementById('p1').textContent;
+let p2 = document.getElementById('p2').textContent;
+
 function reset1(){
-    document.getElementById('p1').textContent = '1つ目の内容'
-    document.getElementById('p2').textContent = '2つ目の内容'
+    document.getElementById('p1').textContent = p1
+    document.getElementById('p2').textContent = p2
+    document.getElementById('reset').textContent = 'リセットっぽいもの'
 }
-
