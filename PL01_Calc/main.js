@@ -1,9 +1,9 @@
-let num1 = num1
-let num2 = num2
-let result = 'a'
+let num1 = np1
+let num2 = no2
+let result = ''
 
 function add() {
-let result = Number(num1) + Number(num2)
+result = Number(num1) + Number(num2)
 output.innerHTML = result
 }
 
