@@ -28,4 +28,4 @@ if __name__ == "__main__":
   uvicorn.run("fapi:app", host="192.168.0.32", port=8000, reload=True)
 
 # コマンド実行の場合
-# uvicorn main:app --reload host=0.0.0.0 port=80
+# & uvicorn main:app --reload --host 0.0.0.0 --port 80
