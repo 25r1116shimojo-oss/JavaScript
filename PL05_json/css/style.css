@@ -1,9 +1,62 @@
-#output {
-    border: 1px solid black;
-    padding: 10px;
-    margin-top: 10px;
+body {
+    background-color: #f9f9f9; 
+}
+section {
+    max-width: 1200px;
+    margin: auto;
+}
+div{
+    text-align: center;
+}
+#select {
+    margin-bottom: 20px;
+    padding: 8px 12px 8px 8px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    appearance: none;
+    background: url('../images/arrow-down.svg') no-repeat right 10px center;
+    background-size: 12px;
 }
 
-button {
-    margin-right: 10px;
+#output {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.prof {
+  width: 280px; 
+  margin: 0;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 12px 0;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+dt {
+  width: 30%; 
+  font-weight: bold;
+  color: #333;
+}
+
+dd {
+  flex: 1; 
+  margin: 0;
+  color: #666;
+  text-align: left; 
 }
